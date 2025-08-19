@@ -45,8 +45,6 @@ colA, colB = st.columns(2)
 with colA:
     if st.button("축하 풍선 🎈", use_container_width=True):
         st.balloons()
-with colB:
-    st.caption("이 페이지는 Streamlit으로 배포되어 누구나 링크로 볼 수 있어요.")
 
 st.divider()
 
@@ -155,3 +153,4 @@ except Exception as e:
 
 st.divider()
 st.caption("© 2025 Made with ❤️ for Han Seo-young — Streamlit")
+
