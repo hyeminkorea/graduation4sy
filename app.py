@@ -152,5 +152,6 @@ except Exception as e:
     st.error(f"읽기 오류: {e}\nSecrets 설정 및 시트 공유 상태를 확인해주세요.")
 
 st.divider()
-st.caption("© 2025 Made with ❤️ for Han Seo-young — Streamlit")
+st.caption("© 2025 Made with ❤️ for Han Seo-young — hyemingway")
+
 
